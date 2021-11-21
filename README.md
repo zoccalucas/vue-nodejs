@@ -23,6 +23,6 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
-Project Screenshot: 
+### Project Screenshot: 
 
 <img src="vue-project.png">
