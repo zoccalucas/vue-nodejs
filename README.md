@@ -1,4 +1,4 @@
-# vue-project
+# projeto-vue
 
 ## Project setup
 ```
@@ -23,6 +23,28 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+# AF1
 ### Project Screenshot: 
 
 <img src="vue-project.png">
+
+# AF2
+## Home (/)
+
+<img src="screenshot-home.png">
+
+## My Account (/account)
+
+<img src="screenshot-account.png">
+
+## Photos (/photos)
+
+<img src="screenshot-photos.png">
+
+
+## Friends (/friends)
+
+<img src="screenshot-friends.png">
+
+
+
