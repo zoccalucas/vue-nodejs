@@ -46,5 +46,12 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 <img src="screenshot-friends.png">
 
+# AF3
+
+## Photos consumindo uma API aleatória de imagens
+
+<img src="Screenshot_photos2.png">
+
+
 
 

@@ -1,8 +1,7 @@
 <template>
   <v-card
     :loading="loading"
-    class="mx-auto my-12"
-    max-width="374"
+    max-width="500"
   >
     <template slot="progress">
       <v-progress-linear
@@ -13,12 +12,10 @@
     </template>
 
     <v-img
-      height="250"
-      v-bind:src="cardInfo.img"
+      v-bind:src="cardInfo.url"
       contain
     ></v-img>
 
-    <v-card-title>{{cardInfo.info}}</v-card-title>
 
    
   </v-card>
@@ -26,11 +23,12 @@
 
 <script>
   export default {
-    props:['cardId','cardInfo'],
+    props:['cardInfo'],
     data: () => ({
       loading: false,
       selection: 1,
     }),
+
     methods: {
       reserve () {
         this.loading = true

@@ -10,6 +10,7 @@
           <h4 class="subheading">
             Desenvolvimento de Aplicaçãoes para WEB - Lab
           </h4>
+          <MyCard :cardInfo="data" ></MyCard>
         </v-col>
       </v-row>
     </v-parallax>
